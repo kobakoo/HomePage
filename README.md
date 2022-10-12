@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **kbk.reply@gmail.com**
 
-- 📄 Know about my experiences [https://www.kobakoo.com/history](https://www.kobakoo.com/history)
+- 📄 Know about my experiences [https://www.kobakoo.com/history](https://www.kobakoo.com/history/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
