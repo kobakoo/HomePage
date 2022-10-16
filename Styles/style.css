@@ -975,3 +975,57 @@
         font-size: 25px;
         font-weight: 850;
     }
+    
+    iframe {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .repository_card {
+        padding: 50px;
+        margin: 0 auto;
+        margin: 30px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: var(--box-shadow-dark);
+        border-radius: 25px;
+        transition: ease-in-out 1s;
+    }
+    
+    .repository_card:hover {
+        box-shadow: var(--box-shadow-hover);
+    }
+    
+    .repository_illust {
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    h3.repository_title,
+    p.repository_text {
+        text-align: center;
+    }
+    
+    img::before {
+        box-shadow: var(--box-shadow-hover);
+    }
+    
+    img.homepage_png {
+        height: 500px;
+        width: 300px;
+        margin-top: 15px;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        /* 🖐 */
+        object-fit: cover;
+        box-shadow: var(--box-shadow-dark);
+    }
