@@ -402,6 +402,21 @@
         p.page-about {
             margin-top: 30px;
         }
+        .social-box {
+            box-shadow: var(--box-shadow-hover);
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            margin: 0 auto;
+            border-radius: 20px;
+            width: 300px;
+        }
+        .social-icon {
+            width: 50px;
+            margin: 0 auto;
+        }
+        .socials {
+            transform: translateX(-25%);
+        }
     }
     
     @media screen and (min-width: 1020px) {
@@ -436,6 +451,19 @@
     }
     
     @media screen and (max-width: 1020px) {
+        .social-box {
+            box-shadow: var(--box-shadow-hover);
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            margin: 0 auto;
+            margin: 30px;
+            border-radius: 20px;
+            margin-left: 20rem;
+            margin-right: 20rem;
+        }
+        .social-icon {
+            width: 100px;
+        }
         .svg_card {
             height: 100px;
             max-width: 100%;
@@ -743,6 +771,20 @@
             font-size: 30px;
             font-weight: 550;
         }
+        .social-box {
+            box-shadow: var(--box-shadow-hover);
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            margin: 0 auto;
+            margin: 30px;
+            border-radius: 20px;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+        .social-icon {
+            width: 50px;
+            margin: 0 auto;
+        }
     }
     
     .about_container {
@@ -904,6 +946,7 @@
         background-color: #333;
         color: #ddd;
         border-radius: 50px;
+        text-align: center;
     }
     
     p.font-p-big {
@@ -1028,4 +1071,37 @@
         /* 🖐 */
         object-fit: cover;
         box-shadow: var(--box-shadow-dark);
+    }
+    
+    .social-title {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .social-box {
+        box-shadow: var(--box-shadow-hover);
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        /* margin: 0 auto; */
+        margin: 30px;
+        border-radius: 20px;
+        margin-left: 22rem;
+        margin-right: 20rem;
+    }
+    
+    .social-icon {
+        width: 100px;
+        margin-top: 30px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .social-icon img {
+        margin: 20px;
+    }
+    
+    .social-about {
+        font-size: 2.5rem;
+        text-align: center;
     }
