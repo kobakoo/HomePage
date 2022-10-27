@@ -1349,3 +1349,9 @@ form {
   align-items: center;
 }
 
+.good-lottie {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
