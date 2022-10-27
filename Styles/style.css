@@ -731,6 +731,15 @@ footer {
 
 @media screen and (max-width: 979px) {
   /* 979px以下用（タブレット用）の記述 */
+  .container3by3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    margin: 10px;
+  }
   .contents_container {
     display: grid;
     grid-template-columns: 1fr;
@@ -1354,4 +1363,13 @@ form {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+}
+
+.container3by3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
 }
