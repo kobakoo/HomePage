@@ -76,6 +76,9 @@
   <h3 class="tablet">回転させてみてね</h3> -->
 
   <body>
+    <div id="loader">
+      <img src="./img/animation_300_l9qvppke.gif" alt="animate">
+    </div>
     <div class="container3">
       <div class="card_container">
         <div class="card">
@@ -225,6 +228,13 @@
         duration: 1600,
         reset: true,
       });
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+      window.onload = ()=>{
+        const loader = document.getElementById('loader');
+        loader.classList.add('loaded');
+    }
     </script>
   </body>
 
