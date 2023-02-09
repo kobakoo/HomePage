@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kobakoo.com
+Token: ac244208a7d73b709bef4e446816982fe0c8438b11260c10e10fd81160fa0c50
